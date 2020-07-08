@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "three": "./three.js",
+    "three/examples/jsm/controls/TrackballControls.js": "./three/examples/jsm/controls/TrackballControls.js"
+  }
+}
