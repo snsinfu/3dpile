@@ -1,0 +1,15 @@
+{
+  "name": "3dpile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/snsinfu/3dpile/",
+  "author": "snsinfu",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "three": "~0.118.3"
+  },
+  "devDependencies": {
+    "snowpack": "~2.6.4"
+  }
+}

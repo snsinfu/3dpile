@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sandpile</title>
+    <script type="importmap" src="/web_modules/import-map.json"></script>
+    <script type="module" src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <main id="app">
+      <h1>Sandpile</h1>
+
+      <nav>
+        <input id="config-toggle" type="checkbox" class="hidden">
+        <label for="config-toggle" role="button">Configure</label>
+
+        <input id="run-toggle" type="checkbox" class="hidden">
+        <label for="run-toggle" role="button">Run</label>
+
+        <fieldset class="slider">
+          <label for="fps">FPS</label>
+          <input id="fps" type="range" value="12" min="1" max="60" step="1">
+          <label for="fps" id="fps-view"></label>
+        </fieldset>
+
+        <div id="config-menu" class="menu-box">
+          <ol>
+            <li>
+              <label for="config-particles">Particles</label>
+              <input id="config-particles" type="number">
+            </li>
+            <li>
+              <label for="config-size">Size</label>
+              <input id="config-size" type="number">
+            </li>
+            <li>
+              <hr>
+            </li>
+            <li>
+              <button id="config-apply">Restart</button>
+            </li>
+          </ol>
+        </div>
+      </nav>
+
+      <div id="viewport"></div>
+    </main>
+  </body>
+</html>
