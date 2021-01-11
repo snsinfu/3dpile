@@ -1,4 +1,4 @@
-import { MOUSE, Vector3, EventDispatcher, Vector2, Quaternion } from '../../../../three.js';
+import { cw as MOUSE, g6 as Vector3, aW as EventDispatcher, g5 as Vector2, dN as Quaternion } from '../../../../common/three.module-fefa4bd5.js';
 
 /**
  * @author Eberhard Graether / http://egraether.com/
