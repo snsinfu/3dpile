@@ -10,6 +10,6 @@
     "three": "~0.118.3"
   },
   "devDependencies": {
-    "snowpack": "~2.6.4"
+    "snowpack": "~2.18.4"
   }
 }
