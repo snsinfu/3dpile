@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "three": "~0.125.0"
+    "three": "~0.137.0"
   },
   "devDependencies": {
     "snowpack": "~2.18.4"
